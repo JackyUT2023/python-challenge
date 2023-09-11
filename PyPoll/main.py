@@ -88,5 +88,7 @@ with open(output_path, 'w') as txtfile:
         txtfile.write ('\n')
     txtfile.write ('\n')
     txtfile.write ("-------------------------")
+    txtfile.write ('\n')
     txtfile.write("Winner: "+Winner)
+    txtfile.write ('\n')
     txtfile.write("-------------------------")
